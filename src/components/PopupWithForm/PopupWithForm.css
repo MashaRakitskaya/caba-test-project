@@ -1,0 +1,126 @@
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.6s, opacity 0.5s linear;
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__content {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 320px;
+  padding-top: 48px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 730px) {
+  .popup__content {
+    width: calc(100% - 19px * 2);
+    padding-top: 25px;
+    padding-right: 22px;
+    padding-bottom: 25px;
+    padding-left: 22px;
+    text-align: center;
+  }
+}
+
+.popup__close {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  background: url("../../images/close.svg") no-repeat 50%;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.popup__close:hover {
+  opacity: 0.6;
+}
+
+.popup__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__title {
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 700;
+  color: #121212;
+  font-style: normal;
+}
+
+.popup__label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 400;
+  color: rgba(18, 18, 18, 0.8);
+  font-style: normal;
+}
+
+.popup__button {
+  width: 288px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: center;
+  color: #e5e1e6;
+  font-style: normal;
+  background: #1b6dff;
+  border: 0;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.popup__button:hover {
+  background: #0053db;
+}
+
+.popup__button:active {
+  background: #003ea9;
+}
+
+.popup__button:disabled {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.popup__error {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 400;
+  color: rgba(255, 68, 68, 0.8);
+  font-style: normal;
+}
