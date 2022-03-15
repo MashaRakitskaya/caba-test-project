@@ -1,6 +1,6 @@
 import PopupWithForm from "components/PopupWithForm/PopupWithForm";
 import React, { useState } from "react";
-import "./SectionWithPopup.css";
+import "./PopupSection.css";
 
 const SectionWithPopup = () => {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -25,23 +25,23 @@ const SectionWithPopup = () => {
 
   return (
     <>
-      <section className="section-with-popup">
-        <h1 className="section-with-popup__title">
+      <section className="popup-section">
+        <h1 className="popup-section__title">
           This is your test task good luck
         </h1>
-        <p className="section-with-popup__subtitle">
+        <p className="popup-section__subtitle">
           BoomTelecom crypto investments made simple
         </p>
-        <div className="section-with-popup__box-button-link">
+        <div className="popup-section__box-button-link">
           <button
             onClick={() => handleButtonClick()}
-            className="section-with-popup__button"
+            className="popup-section__button"
           >
             Open popup
           </button>
           <a
             target={"_blank"}
-            className="section-with-popup__link"
+            className="popup-section__link"
             href="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna"
             rel="noreferrer"
           >

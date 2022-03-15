@@ -1,4 +1,4 @@
-.section-with-popup {
+.popup-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.section-with-popup__title {
+.popup-section__title {
   width: 588px;
   margin: 0;
   margin-bottom: 12px;
@@ -18,7 +18,7 @@
   font-style: normal;
 }
 
-.section-with-popup__subtitle {
+.popup-section__subtitle {
   width: 371px;
   margin: 0;
   margin-bottom: 60px;
@@ -30,13 +30,13 @@
   font-style: normal;
 }
 
-.section-with-popup__box-button-link {
+.popup-section__box-button-link {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
 
-.section-with-popup__button {
+.popup-section__button {
   width: 181px;
   height: 44px;
   font-size: 20px;
@@ -51,15 +51,15 @@
   cursor: pointer;
 }
 
-.section-with-popup__button:hover {
+.popup-section__button:hover {
   background: #0053db;
 }
 
-.section-with-popup__button:active {
+.popup-section__button:active {
   background: #003ea9;
 }
 
-.section-with-popup__link {
+.popup-section__link {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -78,24 +78,24 @@
   cursor: pointer;
 }
 
-.section-with-popup__link:hover {
+.popup-section__link:hover {
   color: #0053db;
   border: 2px solid #0053db;
 }
 
-.section-with-popup__link:active {
+.popup-section__link:active {
   color: #003ea9;
   border: 2px solid #003ea9;
 }
 
 @media (max-width: 980px) {
-  .section-with-popup__title {
+  .popup-section__title {
     width: 404px;
     font-size: 44px;
     line-height: 52px;
   }
 
-  .section-with-popup__subtitle {
+  .popup-section__subtitle {
     width: 310px;
     font-size: 20px;
     line-height: 23px;
@@ -103,28 +103,28 @@
 }
 
 @media (max-width: 400px) {
-  .section-with-popup__title {
+  .popup-section__title {
     width: 294px;
     font-size: 32px;
     line-height: 38px;
   }
 
-  .section-with-popup__subtitle {
+  .popup-section__subtitle {
     width: 248px;
     margin-bottom: 40px;
     font-size: 16px;
     line-height: 19px;
   }
 
-  .section-with-popup__box-button-link {
+  .popup-section__box-button-link {
     flex-direction: column;
   }
 
-  .section-with-popup__button {
+  .popup-section__button {
     width: 280px;
   }
 
-  .section-with-popup__link {
+  .popup-section__link {
     width: 276px;
   }
 }

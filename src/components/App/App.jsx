@@ -1,11 +1,13 @@
-import SectionWithPopup from "components/SectionWithPopup/SectionWithPopup";
+import CardsSection from "components/CardsSection/CardsSection";
+import PopupSection from "components/PopupSection/PopupSection";
 import "./App.css";
 
 function App() {
   return (
     <div className="main">
       <div className="main__layout">
-        <SectionWithPopup />
+        <PopupSection />
+        <CardsSection />
       </div>
     </div>
   );
