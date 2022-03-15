@@ -2,12 +2,12 @@
   font-family: "Robato", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background: #FBFCFF;
+  background: #fbfcff;
 }
 
 .main__layout {
   min-width: 320px;
-  max-width: 1440px;
+  max-width: 1300px;
   min-height: 100vh;
   margin: 0 auto;
 }
