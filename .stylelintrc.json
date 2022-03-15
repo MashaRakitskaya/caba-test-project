@@ -38,7 +38,7 @@
     ],
     "declaration-no-important": true,
     "declaration-property-unit-allowed-list": {
-      "line-height": []
+      "line-height": ["px", "%"]
     },
     "declaration-property-value-disallowed-list": {
       "border": ["none"],
@@ -51,7 +51,7 @@
     "font-family-name-quotes": "always-unless-keyword",
     "font-family-no-duplicate-names": true,
     "font-family-no-missing-generic-family-keyword": true,
-    "font-weight-notation": "named-where-possible",
+    "font-weight-notation": "numeric",
     "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
     "function-url-quotes": "always",
