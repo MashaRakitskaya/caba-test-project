@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Maryia Rakitskaya",
-  "homepage": "https://github.com/MashaRakitskaya/caba-test-project/",
+  "homepage": "https://masharakitskaya.github.io/caba-test-project/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
