@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/caba-test-project/static/css/main.3d0069f8.css",
+    "main.css": "/caba-test-project/static/css/main.3218f39e.css",
     "main.js": "/caba-test-project/static/js/main.87600cfd.js",
     "static/media/menphoto.png": "/caba-test-project/static/media/menphoto.d70e6b5f2fa094b2b481.png",
     "static/media/img3.png": "/caba-test-project/static/media/img3.ae121eb06f41ebf8ac5d.png",
@@ -10,11 +10,11 @@
     "index.html": "/caba-test-project/index.html",
     "static/media/close.svg": "/caba-test-project/static/media/close.520ca618ff5c57eae932.svg",
     "static/media/arrow.svg": "/caba-test-project/static/media/arrow.948bc48796e9413b174359a7fc958d68.svg",
-    "main.3d0069f8.css.map": "/caba-test-project/static/css/main.3d0069f8.css.map",
+    "main.3218f39e.css.map": "/caba-test-project/static/css/main.3218f39e.css.map",
     "main.87600cfd.js.map": "/caba-test-project/static/js/main.87600cfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d0069f8.css",
+    "static/css/main.3218f39e.css",
     "static/js/main.87600cfd.js"
   ]
 }
