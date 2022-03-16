@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MashaRakitskaya/caba-test-project/static/css/main.5c76b888.css",
-    "main.js": "/MashaRakitskaya/caba-test-project/static/js/main.b08b3709.js",
-    "static/media/menphoto.png": "/MashaRakitskaya/caba-test-project/static/media/menphoto.d70e6b5f2fa094b2b481.png",
-    "static/media/img3.png": "/MashaRakitskaya/caba-test-project/static/media/img3.ae121eb06f41ebf8ac5d.png",
-    "static/media/img1.png": "/MashaRakitskaya/caba-test-project/static/media/img1.f54a8366c4b7183ef370.png",
-    "static/media/img2.png": "/MashaRakitskaya/caba-test-project/static/media/img2.f54a8366c4b7183ef370.png",
-    "static/media/logo.svg": "/MashaRakitskaya/caba-test-project/static/media/logo.190883e17c649505e7a7042104119735.svg",
-    "index.html": "/MashaRakitskaya/caba-test-project/index.html",
-    "static/media/close.svg": "/MashaRakitskaya/caba-test-project/static/media/close.520ca618ff5c57eae932.svg",
-    "static/media/arrow.svg": "/MashaRakitskaya/caba-test-project/static/media/arrow.948bc48796e9413b174359a7fc958d68.svg",
-    "main.5c76b888.css.map": "/MashaRakitskaya/caba-test-project/static/css/main.5c76b888.css.map",
-    "main.b08b3709.js.map": "/MashaRakitskaya/caba-test-project/static/js/main.b08b3709.js.map"
+    "main.css": "/caba-test-project/static/css/main.3d0069f8.css",
+    "main.js": "/caba-test-project/static/js/main.87600cfd.js",
+    "static/media/menphoto.png": "/caba-test-project/static/media/menphoto.d70e6b5f2fa094b2b481.png",
+    "static/media/img3.png": "/caba-test-project/static/media/img3.ae121eb06f41ebf8ac5d.png",
+    "static/media/img1.png": "/caba-test-project/static/media/img1.f54a8366c4b7183ef370.png",
+    "static/media/img2.png": "/caba-test-project/static/media/img2.f54a8366c4b7183ef370.png",
+    "static/media/logo.svg": "/caba-test-project/static/media/logo.190883e17c649505e7a7042104119735.svg",
+    "index.html": "/caba-test-project/index.html",
+    "static/media/close.svg": "/caba-test-project/static/media/close.520ca618ff5c57eae932.svg",
+    "static/media/arrow.svg": "/caba-test-project/static/media/arrow.948bc48796e9413b174359a7fc958d68.svg",
+    "main.3d0069f8.css.map": "/caba-test-project/static/css/main.3d0069f8.css.map",
+    "main.87600cfd.js.map": "/caba-test-project/static/js/main.87600cfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c76b888.css",
-    "static/js/main.b08b3709.js"
+    "static/css/main.3d0069f8.css",
+    "static/js/main.87600cfd.js"
   ]
 }
